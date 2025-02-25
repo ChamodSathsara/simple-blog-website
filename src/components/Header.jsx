@@ -11,13 +11,13 @@ function Header() {
         </button>
       </div>
       <div className="flex flex-col items-center justify-center gap-10">
-        <form className="flex flex-row justify-between items-center border border-solid border-black w-1/4 h-10 shadow-[-7px_7px_0px_#000000]">
+        <form className="flex flex-row justify-between items-center border border-solid border-black w-1/4 h-14 shadow-[-7px_7px_0px_#000000]">
           <input
-            className="border-none active:border-none w-full h-full"
+            className=" w-full h-full border border-solid border-black"
             type="text"
             placeholder="Enter Your Email"
           />
-          <button className="text-center px-4  h-full active:bg-slate-600 ">
+          <button className="text-center px-6 h-full active:bg-slate-600 ">
             Search
           </button>
         </form>
