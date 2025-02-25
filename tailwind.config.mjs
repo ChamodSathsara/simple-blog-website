@@ -7,10 +7,17 @@ export default {
   ],
   theme: {
     extend: {
+      spacing: {
+        sm: "8px",
+        md: "12px",
+        lg: "16px",
+        xl: "24px",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      center: true,
     },
   },
   plugins: [],
